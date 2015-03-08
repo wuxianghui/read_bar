@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	
+
+	<drawable name="screen_background_black">#ff000000</drawable>
+
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="divider_line">#E3E2E3</color>
+ 	
+ 	
+ 	<color name="title_background_green">#77933c</color>
+	<color name="title_background_light_green">#c3D69B</color>
+ 	
+ 	<color name="dark_yellow">#fedb5b</color>
+ 	<color name="solid_black">#000</color>
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#00f</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+	<color name="solid_transparent">#00ffffff</color>
+	    
+    <color name="font_text_black">#000000</color>
+    <color name="font_text_grey">#757575</color>    
+    <color name="font_text_min_grey">#333333</color>   
+    <color name="font_text_white">#FFFFFF</color>
+    <color name="font_text_light_blue">#579BCD</color>    
+    <color name="color_fake_link_blue">#ff0b70a4</color>
+    <color name="bg_color_white">#FFFFFFFF</color>
+    <color name="bg_color_blue">#FFE5F6FF</color>
+    <color name="bg_color_longprogress">#999999</color>
+    <color name="fg_color_longprogress">#30E5F2</color>
+    <color name="dgrey_end">#ff2c3137</color>
+    <color name="black_end">#ff181818</color>
+    <color name="grey_end">#ff8c9dae</color>
+    <color name="bg_orange">#ffffaa00</color>
+       
+    <color name="dlg_title_txt_blue">#FF004790</color>
+    <color name="dlg_title_bg_white">#FFFFFFFF</color>
+    <color name="dlg_title_bg_lightblue">#FFCEDFEB</color>
+    <color name="dlg_btn_txt_white">#FFFFFFFF</color>
+        
+    <color name="page_first_title_white">#FFFFFFFF</color>
+    <color name="page_secondary_title_lightblue">#FF9CDCF7</color>
+    <color name="page_txt_lightgray">#FF818283</color>
+    
+    <color name="dialog_search_bgcolor">#60000000</color>
+    <color name="menu_translucent_background">#30000000</color>
+</resources>

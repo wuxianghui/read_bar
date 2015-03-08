@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/selector_tech_menu_list_item">
+    	 <TextView 
+  	android:id="@+id/id_tv_item"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_toRightOf="@+id/item_pic"
+  	android:textColor="@color/black_end"         
+    android:singleLine="true"      
+    android:ellipsize="end"    
+  	android:textSize="18sp" 
+  	android:text="fewfwfwefwefwe"
+  	android:paddingRight="120dp"
+  	/>
+</LinearLayout>

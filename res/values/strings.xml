@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title1">Tuple</string>
+    <string name="title2">Panda intelligent studio</string>
+    <string name="title3">熊猫智能工作室</string>
+    <string name="app_name">读书吧</string>
+    
+    <string name="phone_number">手机号</string>
+    <string name="password">密码</string>
+    
+    <string name="error_register_no_email">请将邮箱输入完整！</string>
+    <string name="error_register_no_password">请将密码输入完整！</string>
+     <string name="error_register_diff_password">两次输入密码不一致！</string>
+    
+    <string name="sucess_user_setting">设置成功</string>
+     <string name="error_user_setting">设置失败，请稍后重试！</string>
+    <string name="error_user_register">注册失败，请稍后重试！</string>
+     <string name="error_user_register_email">邮箱重复，请更换邮箱！</string>
+     <string name="error_login">登录失败，请稍后重试！</string>
+	<string name="success_login">登录成功！</string>
+	
+	
+	<string name="error_add_request_info_duplicated">已经预约，请不要重复预约！</string>
+	
+	<string name="menu_tech">技能</string>
+    <string name="menu_contact">联系人</string>
+    <string name="menu_request">预约</string>
+    <string name="menu_message">消息</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_exit">退出</string>
+    
+    
+    
+        <string name="button_request_me">预约我的</string>
+        <string name="button_request_my">我的预约</string>
+        <string name="button_request_teach_history">教学历史</string>
+        
+        <string name="button_request_me_all">所有预约</string>
+         <string name="button_request_me_success">成功预约</string>
+         
+                 <string name="button_request_my_all">所有预约</string>
+         <string name="button_request_my_success">成功预约</string>
+         
+         <string name="title_add_friend">添加好友</string>
+        
+        
+            <string name="sucess_add_friend">好友添加请求已发送。</string>
+     <string name="error_add_friend">好友添加请求发送失败，请稍后重试！</string>
+        
+</resources>

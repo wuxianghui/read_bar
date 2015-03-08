@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+    
+    
+    <style name="edit_text_register">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+    </style>
+
+
+
+     <style name="text_view_register">
+     <item name="android:gravity">right</item>
+        <item name="android:layout_width">100sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+         <style name="text_view_tip">
+     <item name="android:gravity">left</item>
+        <item name="android:layout_width">60sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/solid_red</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+         <style name="text_view_tip_big">
+     <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="text_view_title_bar">
+     <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+         
+             <style name="text_view_user_fans">
+     <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="text_view_user_tip">
+     <item name="android:gravity">right</item>
+        <item name="android:layout_width">100sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/solid_blue</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">10sp</item>
+        
+    </style>
+         <style name="text_view_user">
+     <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+             <style name="button_user_setting">
+     <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+         <style name="edit_text_signature_user_setting">
+     <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+             <style name="edit_text_dialog_message">
+     <item name="android:gravity">left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:textColor">@color/font_text_black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="message_dialog_theme" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+</resources>

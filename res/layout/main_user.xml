@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/title_background_light_green">
+   
+
+    
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="fill_parent" android:layout_height="wrap_content"
+
+android:scrollbars="vertical" android:fadingEdge="vertical" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:background="@color/title_background_light_green">
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green" android:layout_margin="5sp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/user_default"></ImageView>
+  
+
+   </LinearLayout>
+   
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green" android:layout_marginLeft="10sp" android:layout_gravity="center_vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="粉丝数："></TextView>
+   <TextView style="@style/text_view_user_fans" android:text="24"></TextView>
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="好友数："></TextView>
+   <TextView style="@style/text_view_user_fans" android:text="24"></TextView>
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="未认证："></TextView>
+   <TextView style="@style/text_view_user_fans" android:text="24"></TextView>
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="教学成功次数："></TextView>
+ <TextView style="@style/text_view_user_fans" android:text="24"></TextView>
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="信用度："></TextView>
+  <ImageView android:id="@+id/id_img_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/start"></ImageView>
+  
+</LinearLayout>
+   
+   
+   </LinearLayout>
+   </LinearLayout>
+   
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green" android:layout_marginLeft="5sp">
+   			 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   	<TextView style="@style/text_view_user_tip" android:layout_width="wrap_content" android:text="个性签名"></TextView>
+  	<Button android:text="设置个性签名" android:id="@+id/id_b_set_basic" style="@style/button_user_setting" ></Button>
+	</LinearLayout>
+   <TextView style="@style/text_view_user" android:gravity="left" android:layout_width="match_parent" android:layout_height="wrap_content"  android:text="今天天气不错"></TextView>
+	</LinearLayout>
+    </LinearLayout>
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green" android:layout_marginLeft="5sp">
+    
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   	<TextView style="@style/text_view_user_tip" android:text="姓名：" android:layout_width="60sp"></TextView>
+  	<TextView style="@style/text_view_user" android:text="吴有才" ></TextView>  
+  	<TextView style="@style/text_view_user_tip" android:text="性别：" android:layout_width="60sp"></TextView>
+  	<TextView style="@style/text_view_user" android:text="男" ></TextView>  
+  	<TextView style="@style/text_view_user_tip" android:text="年龄：" android:layout_width="60sp"></TextView>
+  	<TextView style="@style/text_view_user" android:text="32" ></TextView>  
+  	
+	</LinearLayout>
+	
+	
+	
+			 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   	<TextView style="@style/text_view_user_tip" android:text="出生年月：" ></TextView>
+  	<TextView style="@style/text_view_user" android:text="1981.3.3"></TextView>  
+  	
+	</LinearLayout>
+	
+	
+	
+
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   	<TextView style="@style/text_view_user_tip" android:text="住址：" ></TextView>
+  	<TextView style="@style/text_view_user" android:text="t放入到创建的project的目录中，将会自动更新djang"></TextView>  
+  	
+	</LinearLayout>
+	
+	
+	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   	<TextView style="@style/text_view_user_tip" android:text="毕业院校：" ></TextView>
+  	<TextView style="@style/text_view_user" android:text="中国财经大学"></TextView>  
+  	
+	</LinearLayout>
+
+	 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   	<TextView style="@style/text_view_user_tip" android:text="职业：" ></TextView>
+  	<TextView style="@style/text_view_user" android:text="中国程序员" ></TextView>  
+  	
+	</LinearLayout>
+	
+	
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <Button android:text="设置基本信息" android:id="@+id/id_b_set_basic" style="@style/button_user_setting" ></Button>
+	
+	</LinearLayout>
+	
+	
+
+</LinearLayout>
+   
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <Button android:text="我能教" android:id="@+id/id_b_i_can_teach" style="@style/button_user_setting" ></Button>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:id="@+id/id_ll_teach" 
+    android:gravity="left" android:background="@color/title_background_light_green">
+     
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <Button android:text="我能教" android:id="@+id/id_b_i_wanna_learn" style="@style/button_user_setting" ></Button>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:id="@+id/id_ll_learn" 
+    android:gravity="left" android:background="@color/title_background_light_green">
+     
+    </LinearLayout>
+    </LinearLayout>
+    
+
+   
+<!-- 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+    <ExpandableListView android:id="@+id/id_explv_teach_learn" android:layout_height="wrap_content" android:layout_width="match_parent"></ExpandableListView>
+    
+    </LinearLayout>
+ -->
+
+
+    
+</LinearLayout>
+
+ </ScrollView>
+
+
+    
+
+
+
+    </LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/title_background_light_green">
+
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="技能名称："></TextView>
+   <TextView style="@style/text_view_user_fans" android:id="@+id/id_tv_tech_name" android:text="24"></TextView>
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left" android:background="@color/title_background_light_green">
+   <TextView style="@style/text_view_user_fans" android:text="留言："></TextView>
+   <EditText android:text="输入个人说明"  android:maxLength="300" android:id="@+id/id_e_message" android:layout_width="match_parent" android:layout_height="160sp" android:gravity="top|left"></EditText>
+</LinearLayout>
+
+
+ <LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <Button android:text="预约日期" android:id="@+id/id_b_request_data" style="@style/button_user_setting" ></Button>
+    <TextView style="@style/text_view_register" android:id="@+id/id_tv_data"  android:text="2011-01-01"></TextView>
+    </LinearLayout>
+    
+     <LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <Button android:text="预约时间" android:id="@+id/id_b_request_time" style="@style/button_user_setting" ></Button>
+    <TextView style="@style/text_view_register" android:id="@+id/id_tv_time"  android:text="8:14"></TextView>
+    </LinearLayout>
+    
+    
+    
+     <LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register"  android:text="预约地点"></TextView>
+    <EditText android:id="@+id/id_e_address" style="@style/edit_text_register"></EditText>
+    </LinearLayout>
+    <Button android:id="@+id/id_b_submit" android:layout_height="50sp" android:text="发送" android:textSize="24sp" android:layout_width="160sp" android:layout_margin="30sp" android:layout_gravity="center"></Button>
+
+</LinearLayout>

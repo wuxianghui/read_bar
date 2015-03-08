@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/title_background_light_green">
+   
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="fill_parent" android:layout_height="wrap_content"
+
+android:scrollbars="vertical" android:fadingEdge="vertical" >
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TextView style="@style/text_view_register"  android:text="技能" android:layout_width="wrap_content" android:id="@+id/id_tv_tech_info" ></TextView>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/id_ll_tech_class"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="80sp" >
+    <Button android:id="@+id/id_b_parent" android:layout_height="wrap_content" android:text="上一级" android:textSize="16sp" android:layout_width="80sp" android:layout_margin="2sp"></Button>
+ 	<Spinner android:layout_height="wrap_content" android:saveEnabled="true" android:layout_width="200sp" android:id="@+id/id_sp_tech"></Spinner>
+ 	<Button android:id="@+id/id_b_child" android:layout_height="wrap_content" android:text="下一级" android:textSize="16sp" android:layout_width="80sp" android:layout_margin="2sp"></Button>
+ 
+</LinearLayout>
+   </LinearLayout>
+   
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TextView style="@style/text_view_register"  android:text="技能名称"></TextView>
+    <EditText android:text="xxx"  android:maxLength="300" android:id="@+id/id_e_tech_name" android:layout_width="match_parent" android:layout_height="160sp" android:gravity="top|left"></EditText>
+   </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TextView style="@style/text_view_register"  android:text="技能说明"></TextView>
+    <EditText android:text="输入技能说明"  android:maxLength="300" android:id="@+id/id_e_tech_comment" android:layout_width="match_parent" android:layout_height="160sp" android:gravity="top|left"></EditText>
+   </LinearLayout>
+
+
+ <LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register"  android:text="教学地点"></TextView>
+    <EditText android:id="@+id/id_e_address" style="@style/edit_text_register"></EditText>
+    </LinearLayout>
+
+
+ <LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register"  android:text="教学时长"></TextView>
+    <EditText android:id="@+id/id_e_period" style="@style/edit_text_register"></EditText>
+    </LinearLayout>
+    
+ <LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register"  android:text="教学费用"></TextView>
+    <EditText android:id="@+id/id_e_pay" style="@style/edit_text_register"></EditText>
+    </LinearLayout>
+
+  <Button android:id="@+id/id_b_submit" android:layout_height="50sp" android:text="提交" android:textSize="24sp" android:layout_width="160sp" android:layout_margin="30sp" android:layout_gravity="center"></Button>
+   <Button android:id="@+id/id_b_request" android:layout_height="50sp" android:text="发起预约" android:textSize="24sp" android:layout_width="160sp" android:layout_margin="30sp" android:layout_gravity="center" android:visibility="gone"></Button>
+ 
+ </LinearLayout>
+ </ScrollView>
+
+
+    
+
+
+
+    </LinearLayout>

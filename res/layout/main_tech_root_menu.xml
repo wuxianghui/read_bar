@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/title_background_light_green">
+      <ListView
+  	android:id="@+id/id_list_tech_root_menu_listview"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_weight="1"     
+    android:scrollbars="vertical"
+    android:fadingEdge="none"   
+    android:fadingEdgeLength="0dip"
+    android:divider="@color/divider_line"
+	android:cacheColorHint="#00000000"
+  	/>
+ 
+</LinearLayout>

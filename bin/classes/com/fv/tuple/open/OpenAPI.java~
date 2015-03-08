@@ -1,0 +1,63 @@
+package com.fv.tuple.open;
+
+
+
+
+
+public class OpenAPI {
+	//field from net
+	public final static String FIELD_USER_NAME="name";
+	public final static String FIELD_USER_EMAIL="email";
+	public final static String FIELD_USER_password="password";
+	public final static String FIELD_USER_job="job";
+	public final static String FIELD_USER_sex="age";
+	public final static String FIELD_USER_age="address";
+	public final static String FIELD_USER_address="school";
+	public final static String FIELD_USER_school="comments";
+	public final static String FIELD_USER_comments="signature";
+	public final static String FIELD_USER_signature="signature";
+	public final static String FIELD_USER_is_authenticated="is_authenticated";
+	public final static String FIELD_USER_is_state="state";
+	public final static String FIELD_USER_is_latitude="latitude";
+	public final static String FIELD_USER_is_longitude="longitude";
+	public final static String FIELD_USER_is_photo="photo";
+
+	///
+	static OpenAPI mOpenAPI = null;
+	private  String URL_API_MAIN="http://192.168.1.100:8124";
+    private  String URL_API_REGISTER="register";
+    private  String URL_API_LOGIN="login";
+    
+    private  String URL_API_UPDATE_BASIC="update_basic";
+    private  String URL_API_UPDATE_SIGNATRUE="update_signature";
+    private  String URL_API_UPDATE_PASSWORD="update_password";
+    
+	public static OpenAPI getInstance() {
+		if (mOpenAPI == null) {
+			mOpenAPI = new OpenAPI();
+		}
+		return mOpenAPI;
+	}
+	public String getRegisterUrl()
+	{
+		return URL_API_MAIN+"/"+URL_API_REGISTER;
+	}
+	public String getUpdatePasswordUrl()
+	{
+		return URL_API_MAIN+"/"+URL_API_UPDATE_PASSWORD;
+	}
+	public String getUpdateBasicUrl()
+	{
+		return URL_API_MAIN+"/"+URL_API_UPDATE_BASIC;
+	}
+	public String getUpdateSignatureUrl()
+	{
+		return URL_API_MAIN+"/"+URL_API_UPDATE_SIGNATRUE;
+	}
+	
+	public String getLoginUrl()
+	{
+		return URL_API_MAIN+"/"+URL_API_LOGIN;
+	}
+
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" android:background="@color/title_background_light_green">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="120sp"
+    android:gravity="center" android:background="@color/title_background_light_green">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_ll_empty_progress"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="120sp"
+    android:gravity="center" android:background="@color/title_background_light_green">
+      <ProgressBar
+    android:id="@+id/id_pb_empty_progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="6dip" 
+    />
+    </LinearLayout>
+  <TextView 
+  	android:id="@+id/c"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:textSize="24sp" 
+  	android:text="加载更多……"
+  	android:layout_gravity="center" android:gravity="center" android:textColor="@color/dlg_title_txt_blue"/>
+</LinearLayout>
+</LinearLayout>

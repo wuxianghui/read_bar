@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" android:background="@color/title_background_light_green">
+  <ImageView 
+  	android:id="@+id/item_pic"
+  	android:layout_width="100sp"
+  	android:layout_height="100sp"
+  	android:layout_marginTop="2dp"
+  	android:src="@drawable/portry_list_item"/>
+  	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" android:background="@color/title_background_light_green">
+  <TextView 
+  	android:id="@+id/item_name"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_toRightOf="@+id/item_pic"
+  	android:textColor="@color/black_end"         
+    android:singleLine="true"      
+    android:ellipsize="end"    
+  	android:textSize="18sp" 
+  	android:text="fewfwfwefwefwe"
+  	android:paddingRight="120dp"
+  	/>
+  	 <TextView 
+  	android:id="@+id/item_signature"
+  	android:layout_height="wrap_content"
+  	android:layout_width="fill_parent"
+  	android:layout_toRightOf="@+id/item_pic"
+  	android:textColor="@color/black_end"         
+    android:singleLine="true"      
+    android:ellipsize="end"    
+  	android:textSize="18sp" 
+  	android:text="fewfwfwefwefwe"
+  	android:paddingRight="120dp"
+  	/>
+
+
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        style="@style/text_view_title_bar"
+        android:id="@+id/back"
+        android:text="&lt;" >
+    </TextView>
+    
+      <TextView
+       style="@style/text_view_title_bar"
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="注册" >
+    </TextView>
+
+</FrameLayout>

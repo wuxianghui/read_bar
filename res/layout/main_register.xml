@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/title_background_light_green"
+    android:orientation="vertical" >
+  <include layout="@layout/title_back_view" />
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/title_background_light_green"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <LinearLayout 
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView android:text="手机号" style="@style/text_view_register"></TextView>
+    <TextView android:text="（必填）" style="@style/text_view_tip"></TextView>
+    <EditText android:id="@+id/id_e_phone" style="@style/edit_text_register"></EditText>
+    </LinearLayout>
+              <LinearLayout 
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register"  android:text="验证码"></TextView>
+        <TextView android:text="（必填）" style="@style/text_view_tip"></TextView>
+    
+    <EditText android:id="@+id/id_e_verification" style="@style/edit_text_register" ></EditText>
+    </LinearLayout>
+    
+          <LinearLayout 
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register" android:text="密码"></TextView>
+    <TextView android:text="（必填）" style="@style/text_view_tip"></TextView>
+    <EditText android:id="@+id/id_e_password" style="@style/edit_text_register"></EditText>
+
+    </LinearLayout>
+
+          <LinearLayout 
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"  	
+  	 android:layout_marginLeft="20sp" android:layout_marginRight="20sp">
+    <TextView style="@style/text_view_register" android:text="再输入一次"></TextView>
+    <TextView android:text="（必填）" style="@style/text_view_tip"></TextView>
+    <EditText android:id="@+id/id_e_password_again" style="@style/edit_text_register"></EditText>
+
+    </LinearLayout>
+
+          <CheckBox
+              android:id="@+id/id_ch_confirm"
+              style="@style/text_view_tip_big"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+               android:layout_marginBottom="20dp"
+              android:text="我已看过并同意书吧《用户使用协议》" />
+    
+     <Button android:id="@+id/id_b_submit" android:layout_height="50sp" android:text="注册" android:textSize="24sp" android:layout_width="160sp" android:layout_margin="30sp" android:layout_gravity="center"></Button>
+     </LinearLayout>
+   </LinearLayout>
